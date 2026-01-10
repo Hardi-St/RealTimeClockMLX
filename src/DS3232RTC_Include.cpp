@@ -6,6 +6,14 @@
 // Arduino library for the Maxim Integrated DS3232
 // and DS3231 Real-Time Clocks.
 
+// ToDo:
+// ~~~~~
+
+// Revision History:  Changeds by Hardi
+// ~~~~~~~~~~~~~~~~~
+// 01.10.23: - Added getAlarm() function.
+//             This could be used to store the compile time for an automatic time adjustment in the Word Clock project
+
 #include <DS3232RTC_Include.h>
 
 uint8_t DS3232RTC::errCode;
